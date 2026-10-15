@@ -1,0 +1,20 @@
+/**
+ * responsive.css
+ * CONSERVATIVE - hanya mencegah horizontal scroll dan overflow.
+ * Tidak mengubah font-size, layout, padding, margin, atau tata letak apapun.
+ */
+
+/* Cegah horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Gambar tidak melebihi container-nya */
+img {
+  max-width: 100%;
+}
+
+/* Scroll halus di iOS */
+body {
+  -webkit-overflow-scrolling: touch;
+}
